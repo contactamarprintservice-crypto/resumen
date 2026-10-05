@@ -1,0 +1,5 @@
+[build]
+  # Static site with no build step. This overrides the invalid "build"
+  # command set in the Netlify UI.
+  command = "echo 'No build step required'"
+  publish = "public"
